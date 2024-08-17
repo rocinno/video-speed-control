@@ -1,0 +1,59 @@
+body {
+    width: 250px;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+  }
+  h3 {
+    margin-top: 0;
+    color: #cc0000;
+  }
+  .speed-section {
+    margin-bottom: 15px;
+  }
+  .speed-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  button {
+    flex: 1 0 30%;
+    padding: 8px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  button:hover {
+    background-color: #e0e0e0;
+  }
+  #normalSpeed {
+    width: 100%;
+    background-color: #90EE90;
+    color: black;
+    font-weight: bold;
+    margin: 15px 0;
+  }
+  #normalSpeed:hover {
+    background-color: #80f780;
+  }
+  #customSpeed {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .slider-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  #speedSlider {
+    flex-grow: 1;
+  }
+  #speedValue {
+    width: 40px;
+    text-align: center;
+  }
+  .emoji {
+    font-size: 20px;
+  }
+  
